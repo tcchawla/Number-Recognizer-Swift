@@ -1,0 +1,12 @@
+Here are the instructions on how to run this successfully:
+try the last command, if it doesn't work, then follow every step
+
+python3 -m venv ~/tensorflow-metal
+source ~/tensorflow-metal/bin/activate
+python3 -m pip install -U pip
+python3 -m pip install tensorflow-macos
+python3 -m pip install tensorflow-metal
+python3 -m pip install coremltools
+
+then after this finally 
+python3 convert.py
